@@ -1,13 +1,11 @@
 html {
   background-color: #DED9DD;
-  text-decoration: none;
   font-family: 'Montserrat', sans-serif;
 }
 
 header {
-  margin-top: 2rem;
   position: absolute;
-  top: 30px;
+  top: 65px;
 }
 
 nav {
@@ -15,7 +13,6 @@ nav {
   text-decoration: none;
   font-family: 'Quicksand', sans-serif;
   background-color: #3A3846;
-  /* text-color: #FED3BE; */
   top: 0px;
   width: 100%;
   padding-left: 0;
@@ -30,11 +27,7 @@ h1 {
   display: inline;
   padding-left: 2rem;
 }
-h2 {
-  font-family: 'Montserrat', sans-serif;
-}
-
-p {
+h2 + p {
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -51,6 +44,7 @@ li {
 
 ul {
   padding: 0;
+  padding-top: .5rem;
   margin: 0;
 }
 
@@ -64,7 +58,6 @@ body {
   margin: 0;
   padding: 0;
   font-size: 20px;
-  text-decoration: none;
 }
 
 .button {
@@ -77,6 +70,12 @@ body {
   display: inline;
 }
 
-.bold {
-  text-decoration: bold;
+.nav a:hover {
+  background-color: #FED3BE;
+  color: #3A3846;
+}
+
+.nav a:active {
+  background-color: #3A5683;
+  color: #DED9DD;
 }
